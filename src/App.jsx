@@ -1,10 +1,19 @@
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Learn from "./pages/Learn";
+import Build from "./pages/Build";
+import Grow from "./pages/Grow";
+import Umich from "./pages/Umich";
+
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-tr from-green-400 via-blue-500 to-purple-600 text-white flex flex-col items-center justify-center gap-4">
-      <h1 className="text-5xl font-extrabold">✨ Tailwind is really working ✨</h1>
-      <button className="px-6 py-3 rounded-full bg-white text-black text-xl hover:bg-gray-200">
-        Click me
-      </button>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/learn" element={<Learn />} />
+      <Route path="/build" element={<Build />} />
+      <Route path="/grow" element={<Grow />} />
+      <Route path="/umich" element={<Umich />} />
+    </Routes>
   );
 }
+
