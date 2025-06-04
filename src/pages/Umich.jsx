@@ -92,7 +92,7 @@ export default function Umich() {
               href="https://lsa.umich.edu/wiserp"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-slate-800 dark:text-slate-100 hover:font-bold transition-all"
+              className="font-medium text- slate-800 dark:text-slate-100 hover:font-bold transition-all"
               >
               WISERP
               </a>{" "}
