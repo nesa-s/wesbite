@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Learn() {
   return (
-    <div className="min-h-screen bg-white dark:bg-zinc-900 text-slate-800 dark:text-slate-100  max-w-4xl px-6 sm:px-12">
-      <div className="max-w-3xl mx-auto space-y-10">
+    <div className="min-h-screen w-full bg-white dark:bg-zinc-900 text-slate-800 dark:text-slate-100 px-6 sm:px-12">
+      <div className="max-w-3xl space-y-10">
         <Link to="/" className="text-sm text-blue-500 hover:underline">&larr; Back to homepage</Link>
 
         <div>
