@@ -11,17 +11,17 @@ export default function Home() {
         title="nesa shamdasani" 
         subheading={
           <>
-            currently {" "}
-            <a href="/learn" className="text-indigo-500 hover:font-bold transition-all duration-200">learning</a>,{" "}
-            <a href="/build" className="text-indigo-500 hover:font-bold transition-all duration-200">building</a>, and{" "}
-            <a href="/grow" className="text-indigo-500 hover:font-bold transition-all duration-200">growing</a>{" "}
-            @ <a href="/umich" className="text-indigo-500 hover:font-bold transition-all duration-200">the University of Michigan</a>
+            <a href="/build" className="text-indigo-500 hover:font-bold transition-all duration-200">building</a> {" "}
+            &{" "}
+            <a href="/grow" className="text-indigo-500 hover:font-bold transition-all duration-200">growing</a> {" "}
+            @ {" "}
+            <a href="/umich" className="text-indigo-500 hover:font-bold transition-all duration-200">the University of Michigan</a>
           </>
         }
       />
       <div className="absolute bottom-6 left-6 animate-fade-in text-slate-700 dark:text-slate-300 text-sm sm:text-base transition-all duration-200">
   <p>
-    reach me at nesas
+    reach me at: nesas
     <span className="font-semibold">[at]</span>
     umich
     <span className="font-semibold">[dot]</span>
