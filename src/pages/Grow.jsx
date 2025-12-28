@@ -16,7 +16,7 @@ export default function Grow() {
 
       <div>
         <h2 className="text-2xl font-semibold mb-2">Written Pieces</h2>
-        <p className="text-slate-500 dark:text-slate-400">a mix of personal, reflective, and random written pieces</p>
+        <p className="text-slate-500 dark:text-slate-400">some personal, reflective, and random</p>
         
       </div>
       
@@ -42,7 +42,7 @@ export default function Grow() {
 
       <div>
         <h2 className="text-2xl font-semibold mb-2">The other things that interest me</h2>
-        <p className="text-slate-500 dark:text-slate-400"> papers/blogs/podcasts/movies that excite me</p>
+        <p className="text-slate-500 dark:text-slate-400"> papers/blogs/podcasts/movies that intrigue me</p>
         <div className="space-y-1">
           <div className="hover:font-bold hover:text-purple-500">
             <a href="https://www.ai-lab.com/wp-content/uploads/2025/06/The-Future-of-AI-and-the-Future-of-Work.pdf" 
@@ -50,21 +50,20 @@ export default function Grow() {
             rel="noopener noreferrer">
               The Future of AI and the Future of Work</a>
           </div>
-
-          <div>
-            <h2 className="text-xl font-semibold mb-2">Music</h2>
-            <p className="text-slate-500 dark:text-slate-400">the current blend</p>
-            <div className="space-y-1">
-              
-          </div>
-
-
-
         </div>
       </div>
 
-    
-  </div>
+      <hr className="border-slate-300 dark:border-slate-600 mb-8" />
+
+      <div>
+        <h2 className="text-2xl font-semibold mb-2">Music</h2>
+        <p className="text-slate-500 dark:text-slate-400">my top 5 most played songs pulled and updated from my spotify</p>
+
+        <div className="space-y-1">
+          
+        </div>
+      </div>
+    </div>
   </div>
   );
 }
