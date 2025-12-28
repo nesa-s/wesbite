@@ -2,7 +2,6 @@ import { BackgroundPaths } from "@/components/ui/background-paths";
 import { FiGithub } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineSpotify } from "react-icons/ai";
-import { AiOutlineAudit } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -39,9 +38,7 @@ export default function Home() {
   <a href="https://open.spotify.com/user/by4hto07hdn817vgfbu1xahxv?si=5c20729922b14fd2" target="_blank" rel="noopener noreferrer" className="hover:text-green-500">
     <AiOutlineSpotify />
   </a>
-  <a href="https://drive.google.com/file/d/158SjxQE9RzmaEZG6eMoJ9s1V4TN01Frz/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 dark:hover:text-lime-400">
-    <AiOutlineAudit />
-  </a>
+
 </div>
     </div>
   );

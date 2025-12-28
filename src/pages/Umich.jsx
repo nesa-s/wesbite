@@ -68,7 +68,7 @@ export default function Umich() {
             >
             V1
            </a>{" "}
-           <span className="text-slate-600 dark:text-slate-300">• W25 Product Studio</span>{" "}
+           <span className="text-slate-600 dark:text-slate-300">• Community Team • W25 Product Studio</span>{" "}
            <span className="italic text-slate-500 dark:text-slate-400">
             — Largest community of student builders on campus
            </span>
@@ -82,7 +82,7 @@ export default function Umich() {
               >
               MHEAL
               </a>{" "}
-              <span className="text-slate-600 dark:text-slate-300">• Incubator</span>{" "}
+              <span className="text-slate-600 dark:text-slate-300">• Professional Development Director• Team DRIP </span>{" "}
               <span className="italic text-slate-500 dark:text-slate-400">
                 — Bridging healthcare and technology to cultivate innovative solutions for real medical needs around the world
               </span>

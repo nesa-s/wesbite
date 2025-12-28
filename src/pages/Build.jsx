@@ -27,7 +27,7 @@ export default function Build() {
               >
               Claris
               </a>{" "}
-              <span className="text-slate-600 dark:text-slate-300">• an ai driven platform for managing,sharing,and analyzing research data; optimizing time and money for research labs(2025) </span>{" "}
+              <span className="text-slate-600 dark:text-slate-300">• an ai driven platform for managing, sharing, and analyzing research data; optimizing time and money for research labs(2025) </span>{" "}
             </div>
             <div>
               <a
@@ -64,6 +64,18 @@ export default function Build() {
            </a>{" "}
            <span className="text-slate-600 dark:text-slate-300">• b2b eCommerce store (2019)</span>{" "}
            
+        </div>
+
+        <div>
+          <a
+          href = "https://nesashamdasani.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-slate-800 dark:text-slate-100 hover:font-bold transition-all"
+          >
+          SwirledUp
+          </a>{" "}
+          <span className="text-slate-600 dark:text-slate-300">• my first website (2018)</span>{" "}
         </div>
             
           </div>
