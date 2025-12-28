@@ -17,7 +17,11 @@ export default function Grow() {
       <div>
         <h2 className="text-2xl font-semibold mb-2">Written Pieces</h2>
         <p className="text-slate-500 dark:text-slate-400">some personal, reflective, and random</p>
-        
+        <div className="space-y-1 mt-4">
+          <div>
+            <Link to="/recap/2025" className="writing">2025 Year in Review</Link>
+          </div>
+        </div>
       </div>
       
 
@@ -26,15 +30,15 @@ export default function Grow() {
         <h2 className="text-2xl font-semibold mb-2">My Top Reads</h2>
         <p className="text-slate-500 dark:text-slate-400">a mix of memoirs, biographies, social science, and fiction</p>
         <div className="space-y-1">
-          <div className="hover:font-bold hover:text-blue-500">The Glass Castle</div>
-          <div className="hover:font-bold hover:text-blue-500">Outliers: The Story of Success</div>
-          <div className="hover:font-bold hover:text-blue-500">Sadako and the Thousand Paper Cranes</div>
-          <div className="hover:font-bold hover:text-blue-500">The Greatest Trade Ever</div>
-          <div className="hover:font-bold hover:text-blue-500">All We Have Left</div>
-          <div className="hover:font-bold hover:text-blue-500">Between Shades of Gray</div>
-          <div className="hover:font-bold hover:text-blue-500">The Invention of Hugo Cabret</div>
-          <div className="hover:font-bold hover:text-blue-500">Full Body Burden</div>
-          <div className="hover:font-bold hover:text-blue-500">Sparks Like Stars</div>
+          <div className="books">The Glass Castle</div>
+          <div className="books">Outliers: The Story of Success</div>
+          <div className="books">Sadako and the Thousand Paper Cranes</div>
+          <div className="books">The Greatest Trade Ever</div>
+          <div className="books">All We Have Left</div>
+          <div className="books">Between Shades of Gray</div>
+          <div className="books">The Invention of Hugo Cabret</div>
+          <div className="books">Full Body Burden</div>
+          <div className="books">Sparks Like Stars</div>
         </div>
       </div>
 
