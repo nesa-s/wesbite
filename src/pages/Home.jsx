@@ -18,15 +18,18 @@ export default function Home() {
           </>
         }
       />
+      <div className="absolute top-6 left-6 text-slate-700 dark:text-slate-300 text-sm sm:text-base animate-fade-in">
+        <p> click on the purple text for more :)</p>
+      </div>
       <div className="absolute bottom-6 left-6 animate-fade-in text-slate-700 dark:text-slate-300 text-sm sm:text-base transition-all duration-200">
-  <p>
-    reach me at: nesas
-    <span className="font-semibold">[at]</span>
-    umich
-    <span className="font-semibold">[dot]</span>
-    edu
-  </p>
-</div>
+        <p>
+          reach me at: nesas
+          <span className="font-semibold">[at]</span>
+          umich
+          <span className="font-semibold">[dot]</span>
+          edu
+        </p>
+      </div>
 
       <div className="absolute top-6 right-6 flex gap-4 text-2xl text-slate-700 dark:text-slate-200">
   <a href="https://github.com/nesa-s" target="_blank" rel="noopener noreferrer" className="hover:text-black dark:hover:text-white">
