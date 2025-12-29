@@ -32,31 +32,70 @@ export default function Grow() {
       <div>
         <h2 className="text-2xl font-semibold mb-2">My Top Reads</h2>
         <p className="text-slate-500 dark:text-slate-400">a mix of memoirs, biographies, social science, and fiction</p>
+        <div className="space-y-1"></div>
         <div className="space-y-1">
-          <div className="books">The Glass Castle</div>
-          <div className="books">Outliers: The Story of Success</div>
-          <div className="books">Sadako and the Thousand Paper Cranes</div>
-          <div className="books">The Greatest Trade Ever</div>
-          <div className="books">All We Have Left</div>
-          <div className="books">Between Shades of Gray</div>
-          <div className="books">The Invention of Hugo Cabret</div>
-          <div className="books">Full Body Burden</div>
-          <div className="books">Sparks Like Stars</div>
+          <div className="books">The Glass Castle (Jeannette Walls)</div>
+          <div className="books">Outliers: The Story of Success (Malcolm Gladwell)</div>
+          <div className="books">Sadako and the Thousand Paper Cranes (Eleanor Coerr)</div>
+          <div className="books">The Greatest Trade Ever (Gregory Zuckerman)</div>
+          <div className="books">Tomorrow, and Tomorrow, and Tomorrow (Gabrielle Zevin)</div>
+          <div className="books">Between Shades of Gray (Ruta Sepetys)</div>
+          <div className="books">The Invention of Hugo Cabret (Brian Selznick)</div>
+          <div className="books">Full Body Burden (Kristen Iversen)</div> 
         </div>
       </div>
+  
 
       <hr className="border-slate-300 dark:border-slate-600 mb-8" />
 
       <div>
         <h2 className="text-2xl font-semibold mb-2">The other things that interest me</h2>
-        <p className="text-slate-500 dark:text-slate-400"> papers/blogs/podcasts/movies that intrigue me</p>
+        <p className="text-slate-500 dark:text-slate-400"> papers/blogs/podcasts/articles that caught my attention</p>
+        <div className="space-y-1"></div>
         <div className="space-y-1">
-          <div className="hover:font-bold hover:text-purple-500">
-            <a href="https://www.ai-lab.com/wp-content/uploads/2025/06/The-Future-of-AI-and-the-Future-of-Work.pdf" 
+        <div className="hover:font-bold hover:text-purple-500">
+            <a href="https://doctorpenguin.substack.com/" 
             target="_blank" 
             rel="noopener noreferrer">
-              The Future of AI and the Future of Work</a>
+            Eric Topol</a>
           </div>
+
+          <div className="hover:font-bold hover:text-purple-500">
+            <a href="https://paulgraham.com/think.html" 
+            target="_blank" 
+            rel="noopener noreferrer">
+              "How to Think For Yourself" PG</a>
+          </div>
+          <div className="hover:font-bold hover:text-purple-500">
+            <a href="https://www.youtube.com/user/caseyneistat" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            Casey Neistat </a>
+          </div>
+
+          <div className="hover:font-bold hover:text-purple-500">
+            <a href="https://ai-2027.com/" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            AI 2027</a>
+          </div>
+
+          <div className="hover:font-bold hover:text-purple-500">
+            <a href="https://yolken.net/" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            Benjamin Yolken</a>
+          </div>
+
+          <div className="hover:font-bold hover:text-purple-500">
+            <a href="https://open.spotify.com/show/1ILHVeQ1jbI3pClQiy8oN6?si=7fa1de5415f0423b" 
+            target="_blank" 
+            rel="noopener noreferrer">
+            Unsupervised Learning</a>
+          </div>
+
+      
+
         </div>
       </div>
 
@@ -64,11 +103,9 @@ export default function Grow() {
 
       <div>
         <h2 className="text-2xl font-semibold mb-2">Music</h2>
-        <p className="text-slate-500 dark:text-slate-400">my top 5 most played songs pulled and updated from my spotify</p>
-
-        <div className="space-y-1">
-          
-        </div>
+        <p className="text-slate-500 dark:text-slate-400">my top 5 most played songs consistently updated from my spotify every 14 days</p>
+        <div className="space-y-1"></div>
+        <p className = "paragraph">coming soon...</p>
       </div>
     </div>
   </div>

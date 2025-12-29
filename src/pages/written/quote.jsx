@@ -13,9 +13,17 @@ export default function Quote() {
             A collection of quotes that have resonated with me.
           </p>
       </div>
-      <hr className="border-slate-300 dark:border-slate-600 mb-8" />
+      <hr className="border-slate-300 dark:border-slate-600 mb-2" />
       <div>
-        <p className = "paragraph">coming soon...</p>
+        <p className = "paragraph"> Doesn’t matter if you’re a glass half full person or a glass half empty person. 
+        All that matters is the glass is refillable. </p>
+        <p className = "paragraph"> “Who we are cannot be separated from where we're from.”
+        ― Malcolm Gladwell</p>
+        <p className = "paragraph"> "Stay hungry. Stay foolish." ― Steve Jobs </p>
+        <p className = "paragraph"> "You are the greatest project you will ever work on." ― Josh Ether</p>
+
+
+
       </div>
     </div>
     </div>

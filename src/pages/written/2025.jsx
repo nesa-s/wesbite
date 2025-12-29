@@ -10,7 +10,7 @@ export default function Recap2025() {
       <div>
         <h1 className="text-4xl font-bold">2025 Year in Review</h1>
           <p className="text-lg text-slate-600 dark:text-slate-300">
-            December 28, 2025
+            December 29, 2025
           </p>
       </div>
       <hr className="border-slate-300 dark:border-slate-600 mb-8" />

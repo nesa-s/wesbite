@@ -11,6 +11,8 @@ export default function Umich() {
           <p className="text-lg text-slate-600 dark:text-slate-300">
             B.S.E. in Computer Science & Biomedical Engineering
           </p>
+          <p className = "paragraph">
+            Pursuring the intersection of technology and biology to disrupt and revolutionize the healthcare industries. </p>
         </div>
         <hr className="border-slate-300 dark:border-slate-600 mb-8" />
 
