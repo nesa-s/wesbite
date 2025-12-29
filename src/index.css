@@ -9,6 +9,10 @@
 
   .writing {
     @apply hover:font-bold hover:text-pink-500 transition-all cursor-pointer; 
-}
+  }
+
+  .paragraph {
+    @apply mt-4 text-base text-slate-600 dark:text-slate-300;
+  }
 }
 

@@ -21,6 +21,9 @@ export default function Grow() {
           <div>
             <Link to="/recap/2025" className="writing">2025 Year in Review</Link>
           </div>
+          <div>
+            <Link to="/quote" className="writing">Quotes I've Fallen For</Link>
+          </div>
         </div>
       </div>
       
