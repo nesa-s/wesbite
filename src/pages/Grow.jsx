@@ -19,9 +19,6 @@ export default function Grow() {
         <p className="text-slate-500 dark:text-slate-400">some personal, reflective, and random</p>
         <div className="space-y-1 mt-4">
           <div>
-            <Link to="/recap/2025" className="writing">2025 Year in Review</Link>
-          </div>
-          <div>
             <Link to="/quote" className="writing">Quotes I've Fallen For</Link>
           </div>
         </div>
