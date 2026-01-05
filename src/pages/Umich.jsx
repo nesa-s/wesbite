@@ -2,24 +2,25 @@ import { Link } from "react-router-dom";
 
 export default function Umich() {
   return (
-    <div className="min-h-screen w-full bg-white dark:bg-zinc-900 text-slate-800 dark:text-slate-100 px-6 sm:px-12">
-      <div className="max-w-3xl space-y-10">
-        <Link to="/" className="text-sm text-blue-500 hover:underline">&larr; Back to homepage</Link>
+    <div className="page-container">
+      <div className="content-container">
+        <Link to="/" className="back-link">&larr; Back to homepage</Link>
 
         <div>
-          <h1 className="text-4xl font-bold">University of Michigan</h1>
-          <p className="text-lg text-slate-600 dark:text-slate-300">
+          <h1 className="h1-header">University of Michigan</h1>
+          <p className="main-description">
             B.S.E. in Computer Science & Biomedical Engineering
           </p>
-          <p className = "paragraph">
-            Pursuring the intersection of technology and biology to disrupt and revolutionize the healthcare industries. </p>
+          <p className="paragraph">
+            Pursuring the intersection of technology and biology to disrupt and revolutionize the healthcare industries.
+          </p>
         </div>
-        <hr className="border-slate-300 dark:border-slate-600 mb-8" />
+        <hr className="section-divider" />
 
 
         <div>
-          <h2 className="text-2xl font-semibold mb-2">Coursework</h2>
-          <div className="space-y-1">
+          <h2 className="h2-header">Coursework</h2>
+          <div className="content-list">
             <div>EECS 203: Discrete Mathematics</div>
             <div>EECS 280: Programming and Intro Data Structures</div>
             <div>EECS 281: Data Structures and Algorithms</div>
@@ -29,77 +30,77 @@ export default function Umich() {
           </div>
         </div>
 
-        <hr className="border-slate-300 dark:border-slate-600 mb-8" />
+        <hr className="section-divider" />
 
         <div>
-          <h2 className="text-2xl font-semibold mb-2">Engagements</h2>
-          <div className="space-y-3">
+          <h2 className="h2-header">Engagements</h2>
+          <div className="engagement-list">
             <div>
               <a
-              href="https://team.mhacks.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-slate-800 dark:text-slate-100 hover:font-bold transition-all"
+                href="https://team.mhacks.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
               >
-              M-Hacks
+                M-Hacks
               </a>{" "}
-              <span className="text-slate-600 dark:text-slate-300">• Outreach & HackerX</span>{" "}
-              <span className="italic text-slate-500 dark:text-slate-400">
+              <span className="bullet-text">• Outreach & HackerX</span>{" "}
+              <span className="italic-description">
                 — University of Michigan's largest hackathon organization
               </span>
             </div>
             <div>
-                <a
+              <a
                 href="https://sites.lsa.umich.edu/mpmi/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-slate-800 dark:text-slate-100 hover:font-bold transition-all"
-                >
+                className="project-link"
+              >
                 Plant Microbe Interaction Lab
-                </a>{" "}
-              <span className="italic text-slate-500 dark:text-slate-400">
+              </a>{" "}
+              <span className="italic-description">
                 — Working on virus vector-based delivery system for CRISPR/Cas9 components to produce genetically modified cotton plants
               </span>
             </div>
-        <div>
-            <a
-            href="https://v1michigan.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-slate-800 dark:text-slate-100 hover:font-bold transition-all"
-            >
-            V1
-           </a>{" "}
-           <span className="text-slate-600 dark:text-slate-300">• Community Team • W25 Product Studio</span>{" "}
-           <span className="italic text-slate-500 dark:text-slate-400">
-            — Largest community of student builders on campus
-           </span>
-        </div>
             <div>
               <a
-              href="https://mheal.engin.umich.edu/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-slate-800 dark:text-slate-100 hover:font-bold transition-all"
+                href="https://v1michigan.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
               >
-              MHEAL
+                V1
               </a>{" "}
-              <span className="text-slate-600 dark:text-slate-300">• Professional Development Director• Team DRIP </span>{" "}
-              <span className="italic text-slate-500 dark:text-slate-400">
+              <span className="bullet-text">• Community Team • W25 Product Studio</span>{" "}
+              <span className="italic-description">
+                — Largest community of student builders on campus
+              </span>
+            </div>
+            <div>
+              <a
+                href="https://mheal.engin.umich.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                MHEAL
+              </a>{" "}
+              <span className="bullet-text">• Professional Development Director • Team DRIP</span>{" "}
+              <span className="italic-description">
                 — Bridging healthcare and technology to cultivate innovative solutions for real medical needs around the world
               </span>
             </div>
             <div>
               <a
-              href="https://lsa.umich.edu/wiserp"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text- slate-800 dark:text-slate-100 hover:font-bold transition-all"
+                href="https://lsa.umich.edu/wiserp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
               >
-              WISERP
+                WISERP
               </a>{" "}
-              <span className="text-slate-600 dark:text-slate-300">• Peer Mentor</span>{" "}
-              <span className="italic text-slate-500 dark:text-slate-400">
+              <span className="bullet-text">• Peer Mentor</span>{" "}
+              <span className="italic-description">
                 — Supporting and guiding first-year women in STEM fields
               </span>
             </div>

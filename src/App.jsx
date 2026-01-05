@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 import Build from "./pages/Build";
 import Grow from "./pages/Grow";
 import Umich from "./pages/Umich";
-import Recap2025 from "./pages/written/2025";
 import Quote from "./pages/written/quote";
 
 export default function App() {
@@ -13,7 +12,6 @@ export default function App() {
       <Route path="/build" element={<Build />} />
       <Route path="/grow" element={<Grow />} />
       <Route path="/umich" element={<Umich />} />
-      <Route path="/recap/2025" element={<Recap2025 />} />
       <Route path="/quote" element={<Quote />} />
     </Routes>
   );

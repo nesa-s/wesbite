@@ -2,35 +2,34 @@ import { Link } from "react-router-dom";
 
 export default function Grow() {
   return (
-  <div className="min-h-screen w-full bg-white dark:bg-zinc-900 text-slate-800 dark:text-slate-100 px-6 sm:px-12">
-      <div className="max-w-3xl space-y-10">
-        <Link to="/" className="text-sm text-blue-500 hover:underline">&larr; Back to homepage</Link>
+  <div className="page-container">
+      <div className="content-container">
+        <Link to="/" className="back-link">&larr; Back to homepage</Link>
 
       <div>
-        <h1 className="text-4xl font-bold">Growth</h1>
-          <p className="text-lg text-slate-600 dark:text-slate-300">
-             written pieces, books I'm into, & other things that interest me.
-          </p>
+        <h1 className="h1-header">Growth</h1>
+        <p className="main-description">
+          written pieces, books I'm into, & other things that interest me.
+        </p>
       </div>
-      <hr className="border-slate-300 dark:border-slate-600 mb-8" />
+      <hr className="section-divider" />
 
       <div>
-        <h2 className="text-2xl font-semibold mb-2">Written Pieces</h2>
-        <p className="text-slate-500 dark:text-slate-400">some personal, reflective, and random</p>
-        <div className="space-y-1 mt-4">
+        <h2 className="h2-header">Written Pieces</h2>
+        <p className="sub-description">some personal, reflective, and random</p>
+        <div className="content-list">
           <div>
             <Link to="/quote" className="writing">Quotes I've Fallen For</Link>
           </div>
         </div>
       </div>
-      
 
-      <hr className="border-slate-300 dark:border-slate-600 mb-8" />
+      <hr className="section-divider" />
+
       <div>
-        <h2 className="text-2xl font-semibold mb-2">My Top Reads</h2>
-        <p className="text-slate-500 dark:text-slate-400">a mix of memoirs, biographies, social science, and fiction</p>
-        <div className="space-y-1"></div>
-        <div className="space-y-1">
+        <h2 className="h2-header">My Top Reads</h2>
+        <p className="sub-description">a mix of memoirs, biographies, social science, and fiction</p>
+        <div className="content-list">
           <div className="books">The Glass Castle (Jeannette Walls)</div>
           <div className="books">Outliers: The Story of Success (Malcolm Gladwell)</div>
           <div className="books">Sadako and the Thousand Paper Cranes (Eleanor Coerr)</div>
@@ -38,71 +37,79 @@ export default function Grow() {
           <div className="books">Tomorrow, and Tomorrow, and Tomorrow (Gabrielle Zevin)</div>
           <div className="books">Between Shades of Gray (Ruta Sepetys)</div>
           <div className="books">The Invention of Hugo Cabret (Brian Selznick)</div>
-          <div className="books">Full Body Burden (Kristen Iversen)</div> 
-        </div>
-      </div>
-  
-
-      <hr className="border-slate-300 dark:border-slate-600 mb-8" />
-
-      <div>
-        <h2 className="text-2xl font-semibold mb-2">The other things that interest me</h2>
-        <p className="text-slate-500 dark:text-slate-400"> papers/blogs/podcasts/articles that caught my attention</p>
-        <div className="space-y-1"></div>
-        <div className="space-y-1">
-        <div className="hover:font-bold hover:text-purple-500">
-            <a href="https://doctorpenguin.substack.com/" 
-            target="_blank" 
-            rel="noopener noreferrer">
-            Eric Topol</a>
-          </div>
-
-          <div className="hover:font-bold hover:text-purple-500">
-            <a href="https://paulgraham.com/think.html" 
-            target="_blank" 
-            rel="noopener noreferrer">
-              "How to Think For Yourself" PG</a>
-          </div>
-          <div className="hover:font-bold hover:text-purple-500">
-            <a href="https://www.youtube.com/user/caseyneistat" 
-            target="_blank" 
-            rel="noopener noreferrer">
-            Casey Neistat </a>
-          </div>
-
-          <div className="hover:font-bold hover:text-purple-500">
-            <a href="https://ai-2027.com/" 
-            target="_blank" 
-            rel="noopener noreferrer">
-            AI 2027</a>
-          </div>
-
-          <div className="hover:font-bold hover:text-purple-500">
-            <a href="https://yolken.net/" 
-            target="_blank" 
-            rel="noopener noreferrer">
-            Benjamin Yolken</a>
-          </div>
-
-          <div className="hover:font-bold hover:text-purple-500">
-            <a href="https://open.spotify.com/show/1ILHVeQ1jbI3pClQiy8oN6?si=7fa1de5415f0423b" 
-            target="_blank" 
-            rel="noopener noreferrer">
-            Unsupervised Learning</a>
-          </div>
-
-      
-
+          <div className="books">Full Body Burden (Kristen Iversen)</div>
         </div>
       </div>
 
-      <hr className="border-slate-300 dark:border-slate-600 mb-8" />
+      <hr className="section-divider" />
 
       <div>
-        <h2 className="text-2xl font-semibold mb-2">Music</h2>
-        <p className="text-slate-500 dark:text-slate-400">my top 5 most played songs consistently updated from my spotify every 14 days</p>
-        <div className="space-y-1"></div>
-        <p className = "paragraph">coming soon...</p>
+        <h2 className="h2-header">The other things that interest me</h2>
+        <p className="sub-description">papers/blogs/podcasts/articles that caught my attention</p>
+        <div className="content-list">
+          <div className="purple-hover">
+            <a 
+              href="https://doctorpenguin.substack.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Eric Topol
+            </a>
+          </div>
+          <div className="purple-hover">
+            <a 
+              href="https://paulgraham.com/think.html" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              "How to Think For Yourself" PG
+            </a>
+          </div>
+          <div className="purple-hover">
+            <a 
+              href="https://www.youtube.com/user/caseyneistat" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Casey Neistat
+            </a>
+          </div>
+          <div className="purple-hover">
+            <a 
+              href="https://ai-2027.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              AI 2027
+            </a>
+          </div>
+          <div className="purple-hover">
+            <a 
+              href="https://yolken.net/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Benjamin Yolken
+            </a>
+          </div>
+          <div className="purple-hover">
+            <a 
+              href="https://open.spotify.com/show/1ILHVeQ1jbI3pClQiy8oN6?si=7fa1de5415f0423b" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Unsupervised Learning
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr className="section-divider" />
+
+      <div>
+        <h2 className="h2-header">Music</h2>
+        <p className="sub-description">my top 5 most played songs consistently updated from my spotify every 14 days</p>
+        <p className="paragraph mt-4">coming soon...</p>
       </div>
     </div>
   </div>
