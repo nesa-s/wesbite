@@ -8,14 +8,14 @@ export default function Quote() {
         <Link to="/grow" className="text-sm text-blue-500 hover:underline">&larr; Back to growth</Link>
 
       <div>
-        <h1 className="text-4xl font-bold">Quotes I've Fallen For </h1>
+        <h1 className="text-4xl font-bold">Quotes</h1>
           <p className="text-lg text-slate-600 dark:text-slate-300">
             A collection of quotes that have resonated with me.
           </p>
       </div>
       <hr className="border-slate-300 dark:border-slate-600 mb-2" />
       <div>
-        <p className = "paragraph"> Doesn’t matter if you’re a glass half full person or a glass half empty person. 
+        <p className = "paragraph"> It does notmatter if you’re a glass half full person or a glass half empty person. 
         All that matters is the glass is refillable. </p>
         <p className = "paragraph"> “Who we are cannot be separated from where we're from.”
         ― Malcolm Gladwell</p>

@@ -19,8 +19,9 @@ export default function Grow() {
         <p className="sub-description">some personal, reflective, and random</p>
         <div className="content-list">
           <div>
-            <Link to="/quote" className="writing">Quotes I've Fallen For</Link>
+            <Link to="/quote" className="writing">Quotes</Link>
           </div>
+
         </div>
       </div>
 
@@ -109,7 +110,7 @@ export default function Grow() {
       <div>
         <h2 className="h2-header">Music</h2>
         <p className="sub-description">my top 5 most played songs consistently updated from my spotify every 14 days</p>
-        <p className="paragraph mt-4">coming soon...</p>
+        <SpotifyTopTracks />
       </div>
     </div>
   </div>
