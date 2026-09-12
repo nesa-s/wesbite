@@ -9,10 +9,7 @@ export default function Umich() {
         <div>
           <h1 className="h1-header">University of Michigan</h1>
           <p className="main-description">
-            B.S.E. in Computer Science & Biomedical Engineering
-          </p>
-          <p className="paragraph">
-            Pursuring the intersection of technology and biology to disrupt and revolutionize the healthcare industries.
+            B.S.E. in Computer Science
           </p>
         </div>
         <hr className="section-divider" />
@@ -25,6 +22,9 @@ export default function Umich() {
             <div>EECS 280: Programming and Intro Data Structures</div>
             <div>EECS 281: Data Structures and Algorithms</div>
             <div>EECS 370: Computer Organization</div>
+            <div>EECS 445: Intro to Machine Learning</div>
+            <div>EECS 485: Web Systems</div>
+            <div>FIN 302: Making Financial Decisions</div>
             <div>Piano 110: Beginning Piano</div>
             <div>ENTR 407: Entrepreneurship Hour with Center for Entrepreneurship</div>
           </div>
@@ -74,6 +74,13 @@ export default function Umich() {
               <span className="bullet-text">• Community Team • W25 Product Studio</span>{" "}
               <span className="italic-description">
                 — Largest community of student builders on campus
+              </span>
+            </div>
+            <div>
+              <span className="project-link">SpaceXAI</span>{" "}
+              <span className="bullet-text">• Campus Lead</span>{" "}
+              <span className="italic-description">
+                — Leading campus engagement and community for SpaceXAI
               </span>
             </div>
             <div>

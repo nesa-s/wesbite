@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SpotifyTopTracks from "../components/SpotifyTopTracks";
 
 export default function Grow() {
   return (
