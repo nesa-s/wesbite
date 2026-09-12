@@ -80,7 +80,7 @@ export default function Umich() {
               <span className="project-link">SpaceXAI</span>{" "}
               <span className="bullet-text">• Campus Lead</span>{" "}
               <span className="italic-description">
-                — Leading campus engagement and community building for xAI's student program
+                — Leading campus engagement and community for SpaceXAI
               </span>
             </div>
             <div>
