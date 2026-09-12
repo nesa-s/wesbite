@@ -1,4 +1,5 @@
 import { BackgroundPaths } from "@/components/ui/background-paths";
+import { Link } from "react-router-dom";
 import { FiGithub } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineSpotify } from "react-icons/ai";
@@ -10,11 +11,11 @@ export default function Home() {
         title="nesa shamdasani" 
         subheading={
           <>
-            <a href="/build" className="indigo-link">building</a> {" "}
+            <Link to="/build" className="indigo-link">building</Link> {" "}
             &{" "}
-            <a href="/grow" className="indigo-link">growing</a> {" "}
+            <Link to="/grow" className="indigo-link">growing</Link> {" "}
             @ {" "}
-            <a href="/umich" className="indigo-link">the University of Michigan</a>
+            <Link to="/umich" className="indigo-link">the University of Michigan</Link>
           </>
         }
       />
