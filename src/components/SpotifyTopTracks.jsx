@@ -44,11 +44,11 @@ export default function SpotifyTopTracks() {
   }, []);
 
   if (loading) {
-    return <p className="paragraph mt-4">Loading top tracks...</p>;
+    return null;
   }
 
   if (error) {
-    return <p className="paragraph mt-4 text-red-600 dark:text-red-400">{error}</p>;
+    return null;
   }
 
   return (
