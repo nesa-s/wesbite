@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import SpotifyTopTracks from "../components/SpotifyTopTracks";
+import SpotifyNowPlaying from "../components/SpotifyNowPlaying";
 
 export default function Grow() {
   return (
@@ -110,8 +110,8 @@ export default function Grow() {
 
       <div>
         <h2 className="h2-header">Music</h2>
-        <p className="sub-description">my top 5 most played songs consistently updated from my spotify every 14 days</p>
-        <SpotifyTopTracks />
+        <p className="sub-description">what I'm listening to right now on spotify</p>
+        <SpotifyNowPlaying />
       </div>
     </div>
   </div>
