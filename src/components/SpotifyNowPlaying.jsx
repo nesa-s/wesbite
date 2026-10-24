@@ -28,7 +28,7 @@ export default function SpotifyNowPlaying() {
           setIsPlaying(data.isPlaying ?? false);
           setLoading(false);
         }
-      } catch (err) {
+      } catch {
         if (!cancelled) {
           setTrack(null);
           setLoading(false);
