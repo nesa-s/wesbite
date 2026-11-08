@@ -15,8 +15,6 @@ export default function Quote() {
       </div>
       <hr className="border-slate-300 dark:border-slate-600 mb-2" />
       <div>
-        <p className = "paragraph"> It does notmatter if you’re a glass half full person or a glass half empty person. 
-        All that matters is the glass is refillable. </p>
         <p className = "paragraph"> “Who we are cannot be separated from where we're from.”
         ― Malcolm Gladwell</p>
         <p className = "paragraph"> "Stay hungry. Stay foolish." ― Steve Jobs </p>
