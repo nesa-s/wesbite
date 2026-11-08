@@ -116,7 +116,7 @@ export function buildAuthorizeUrl(redirectUri, state) {
     client_id: clientId,
     response_type: "code",
     redirect_uri: redirectUri,
-    scope: "user-top-read",
+    scope: "user-top-read user-read-currently-playing user-read-recently-played",
     state,
   });
 
@@ -140,4 +140,45 @@ export function formatTopTracks(payload) {
     url: track.external_urls.spotify,
     albumArt: track.album.images[0]?.url ?? null,
   }));
+}
+
+export async function fetchNowPlaying(accessToken) {
+  return spotifyFetch(`${API_BASE}/me/player/currently-playing`, accessToken);
+}
+
+export async function fetchRecentlyPlayed(accessToken) {
+  const params = new URLSearchParams({
+    limit: "1",
+  });
+  return spotifyFetch(`${API_BASE}/me/player/recently-played?${params}`, accessToken);
+}
+
+export function formatNowPlaying(payload) {
+  if (!payload || !payload.item) {
+    return null;
+  }
+
+  const track = payload.item;
+  return {
+    name: track.name,
+    artists: track.artists.map((artist) => artist.name).join(", "),
+    url: track.external_urls.spotify,
+    albumArt: track.album.images[0]?.url ?? null,
+    isPlaying: payload.is_playing,
+  };
+}
+
+export function formatRecentlyPlayed(payload) {
+  if (!payload || !payload.items || payload.items.length === 0) {
+    return null;
+  }
+
+  const track = payload.items[0].track;
+  return {
+    name: track.name,
+    artists: track.artists.map((artist) => artist.name).join(", "),
+    url: track.external_urls.spotify,
+    albumArt: track.album.images[0]?.url ?? null,
+    isPlaying: false,
+  };
 }
