@@ -15,17 +15,8 @@ export default async function handler(req, res) {
   try {
     const accessToken = await refreshAccessToken();
 
-    let nowPlayingData = null;
-    try {
-      const nowPlaying = await fetchNowPlaying(accessToken);
-      nowPlayingData = formatNowPlaying(nowPlaying);
-    } catch (error) {
-      if (error.status === 204) {
-        nowPlayingData = null;
-      } else {
-        throw error;
-      }
-    }
+    const nowPlaying = await fetchNowPlaying(accessToken);
+    const nowPlayingData = formatNowPlaying(nowPlaying);
 
     if (nowPlayingData && nowPlayingData.isPlaying) {
       res.setHeader("Cache-Control", "public, max-age=0, must-revalidate");
@@ -52,9 +43,10 @@ export default async function handler(req, res) {
       isPlaying: false,
     });
   } catch (error) {
-    const status = error.status ?? 500;
-    return res.status(status).json({
-      error: error.message ?? "Failed to fetch now playing from Spotify",
+    res.setHeader("Cache-Control", "public, max-age=60");
+    return res.status(200).json({
+      track: null,
+      isPlaying: false,
     });
   }
 }

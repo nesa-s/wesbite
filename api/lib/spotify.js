@@ -40,6 +40,10 @@ export async function spotifyFetch(url, accessToken, attempt = 0) {
     return spotifyFetch(url, accessToken, attempt + 1);
   }
 
+  if (response.status === 204) {
+    return null;
+  }
+
   if (!response.ok) {
     const message = await parseSpotifyError(response);
     const error = new Error(message);
